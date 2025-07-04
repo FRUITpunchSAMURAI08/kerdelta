@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background: #000;
+  color: #0f0;
+  font-family: monospace;
+  text-align: center;
+}
+.container {
+  padding-top: 20vh;
+}
+.glitch {
+  font-size: 2em;
+  animation: flicker 1.5s infinite;
+}
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+.hidden {
+  font-size: 0.1em;
+  color: #000;
+}
